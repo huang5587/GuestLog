@@ -1,0 +1,51 @@
+.Guest{
+  background-color: beige;
+}
+
+#submitButton{
+  border-radius: 25px;
+  background: rgb(29, 24, 95);
+  border: 2px solid rgba(107, 107, 107, 0.698);
+  padding: 8px; 
+  width: 125px;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  color:rgb(29, 24, 95);
+  font-weight: bold;
+}
+
+p{
+  color: rgb(29, 24, 95)
+}
+
+input{
+    padding: 15px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    width: 275px;
+    height: 5px;
+}
+
+label{
+    font-size: 12px;
+    color: gray;
+}
+
+span{
+    font-size: 12px;
+    padding: 3px;
+    color: red;
+    display: none;
+}
+
+input:invalid[focused="true"]{
+    border: 1px solid red;
+}
+
+input:invalid[focused="true"] ~ span{
+    display: block;
+}
